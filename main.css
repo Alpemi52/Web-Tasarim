@@ -1,0 +1,38 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .square {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    color: grey;
+    font-weight: lighter; 
+    padding: 10%;
+  }
+
+  .row{
+    height: 500px; 
+    width: 1300px; 
+    background-color: white; 
+    margin-top: 1cm; 
+    flex-direction: row;
+  }
+  .row .container{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+  }
+  
+  .stack {
+    position: relative;
+  }
+  
